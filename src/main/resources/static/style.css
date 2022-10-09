@@ -1,0 +1,60 @@
+/*---------------
+    General
+---------------- */
+
+body {
+    font-family: sans-serif;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+.form1 {
+    max-width: 468px;
+    margin: 50px auto;
+    border: solid 2px lightgrey;
+    padding: 0 3em 3em;
+    border-radius: 6px;
+    background: #fefefe;
+}
+
+.form-label {
+    display: block;
+    padding: 1.8em 0 .5em;
+    font-weight: 700;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+
+}
+
+.btn {
+    background: lightgrey;
+    padding: .8em 1.2em;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 1.5em 0;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: #3498db;
+    color: #fefefe
+}
+
+#male, #female, #bmw, #honda, #audi, #toyota, #other {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+span {
+    color: red;
+}

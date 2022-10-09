@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Mandiri Product Client Application</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="form1">
+<h2>Mandiri Product Client Application</h2><br>
+<form action="/product" method="GET" id="productForm">
+    <div>
+        <label for="nameField" class="form-label">List all product</label>
+        <button type="submit" class="btn">Click</button>
+    </div>
+</form>
+</div>
+<div class="form1">
+<h3>Find product</h3><br>
+<form action="/find" method="GET" id="findForm">
+    <div>
+        <label for="nameField" class="form-label">Product id:</label>
+        <input name="productId" id="nameField" class="form-control">
+        <button type="submit" class="btn">Submit</button>
+    </div>
+</form>
+</div>
+<div class="form1">
+    <h3>Order product</h3><br>
+    <form action="/order" method="GET" id="orderForm">
+        <div>
+            <label for="nameField" class="form-label">Product id:</label>
+            <input name="productId" id="nameField1" class="form-control">
+        </div>
+        <div>
+            <label for="nameField" class="form-label">Buyer name:</label>
+            <input name="buyerNama" id="nameField2" class="form-control">
+        </div>
+        <div>
+            <label for="nameField" class="form-label">Address:</label>
+            <input name="address" id="nameField3" class="form-control">
+            <button type="submit" class="btn">Submit</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
